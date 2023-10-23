@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+
+</head>
+
+<body>
+
+    <Navbar>
+        <div class="left-nav">
+            <span class="material-symbols-outlined white-color menu">menu</span>
+            <div class="logo"></div>
+        </div>
+        <div class="right-nav">
+            <span class="material-symbols-outlined white-color menu">video_call</span>
+            <span class="material-symbols-outlined white-color menu">notifications</span>
+            <span class="material-symbols-outlined menu user">person</span>
+        </div>
+    </Navbar>
+
+    <div class="body">
+        <div class="vertical-left-nav menu">
+
+            <div class="left-nav-item left-nav-active">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">home</span><span
+                        class="left-nav-title">Home</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">sound_sampler</span><span
+                        class="left-nav-title">Shorts</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">subscriptions</span><span
+                        class="left-nav-title">Subscriptions</span></a>
+            </div>
+
+            <div class="left-nav-line">
+                <hr>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">video_library</span><span
+                        class="left-nav-title">Library</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">history</span><span
+                        class="left-nav-title">History</span></a>
+            </div>
+
+            <div class="left-nav-line">
+                <hr>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span
+                        class="material-symbols-outlined menu menu-icon-padding">local_fire_department</span><span
+                        class="left-nav-title">Trending</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">local_mall</span><span
+                        class="left-nav-title">Shopping</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">music_note</span><span
+                        class="left-nav-title">Music</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">movie</span><span
+                        class="left-nav-title">Movies</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">stream</span><span
+                        class="left-nav-title">Live</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">sports_esports</span><span
+                        class="left-nav-title">Gaming</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">news</span><span
+                        class="left-nav-title">News</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">School</span><span
+                        class="left-nav-title">Learning</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">trophy</span><span
+                        class="left-nav-title">Sports</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">Styler</span><span
+                        class="left-nav-title">Fashion</span></a>
+            </div>
+
+            <div class="left-nav-line">
+                <hr>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">settings</span><span
+                        class="left-nav-title">Settings</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">flag</span><span
+                        class="left-nav-title">Report History</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">help</span><span
+                        class="left-nav-title">Help</span></a>
+            </div>
+
+            <div class="left-nav-item">
+                <a href="#"><span class="material-symbols-outlined menu menu-icon-padding">feedback</span><span
+                        class="left-nav-title">Send Feedback</span></a>
+            </div>
+
+        </div>
+
+
+        <div class="content">
+            <!-- <div class="filter"> -->
+
+            <div class="filer-row">
+
+                <button class="arrow" id="left">
+                    <span class="material-symbols-outlined">arrow_back_ios_new</span>
+                </button>
+
+                <div class="filter-container" id="filterContainer">
+                    <span class="tab active"><a>All</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Live</a></span>
+                    <span class="tab"><a>Mixes</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Music</a></span>
+                    <span class="tab"><a>Laptops</a></span>
+                    <span class="tab"><a>DJ Mix</a></span>
+                    <span class="tab"><a>Bollywood Music</a></span>
+                    <span class="tab"><a>JavaScript</a></span>
+                    <span class="tab"><a>Gadgets</a></span>
+                    <span class="tab"><a>Bollywood Music</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>JavaScript</a></span>
+                    <span class="tab"><a>Gadgets</a></span>
+                    <span class="tab"><a>Bollywood Music</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                    <span class="tab"><a>Gaming</a></span>
+                </div>
+
+                <button class="arrow" id="right">
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                </button>
+
+            </div>
+
+            <!-- </div> -->
+            <div class="cards">
+
+                <div class="card-content">
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="banner"></div>
+                        <div class="description">
+                            <div class="wrap">
+                                <div class="avtar"></div>
+                                <div class="info">
+                                    <span class="title">Nobita Gaming Live || DAY 1507 || Ekdum Nalla Game Play Koi Ping
+                                        Thik Karado Vhai glkjjy yyyjyjfjfg yfjfyf</span>
+                                    <div class="channel-views">
+                                        <span class="tiny-text">Channel Name</span>
+                                        <span class="tiny-text">100K Views | 3 hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
